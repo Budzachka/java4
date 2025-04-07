@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Laboratorna 4</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Sort Array</h1>
+
+  <div class="form-container">
+    <form id="myForm">
+      <fieldset>
+        <legend>Choose Array Type</legend>
+        <label>
+          <input type="radio" id="sparseArr" name="Type" />
+          Sparse array
+        </label>
+        <label>
+          <input type="radio" id="array" name="Type" />
+          Array
+        </label>
+      </fieldset>
+    </form>
+
+    <form id="myForm2">
+      <fieldset>
+        <legend>Sort Order</legend>
+        <label>
+          <input type="radio" id="asc" name="SortType" />
+          Ascending
+        </label>
+        <label>
+          <input type="radio" id="desc" name="SortType" />
+          Descending
+        </label>
+      </fieldset>
+    </form>
+
+    <button id="sort-button">Sort Array</button>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="SortArray.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
